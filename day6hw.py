@@ -1,10 +1,10 @@
 blog_views = [150, 800, 2500, 600, 1200, 450, 3000]
 
-# Counters
+
 total_views = 0
 trending_posts = 0
 
-# Loop through each blog post view count
+
 for views in blog_views:
     if views > 1000:
         print("Trending")
@@ -15,6 +15,6 @@ for views in blog_views:
         print("Low Traffic")
     total_views += views
 
-# After the loop
+
 print("Total views:", total_views)
 print("Number of Trending posts:", trending_posts)
