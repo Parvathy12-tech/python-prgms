@@ -1,6 +1,5 @@
 blog_views = [150, 800, 2500, 600, 1200, 450, 3000]
 
-
 total_views = 0
 trending_posts = 0
 
