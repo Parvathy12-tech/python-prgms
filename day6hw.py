@@ -8,7 +8,7 @@ for views in blog_views:
     if views > 1000:
         print("Trending")
         trending_posts += 1
-    elif views >= 500:
+    elif   500 <= views <= 1000:
         print("Average")
     else:
         print("Low Traffic")
