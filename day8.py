@@ -6,6 +6,7 @@ class Person:
     def show_details(self):
         print(f"Name: {self.name}, Age: {self.age}")
 
+
 class Employee(Person):
     def __init__(self, name, age, employee_id):
         Person.__init__(self, name, age)   
