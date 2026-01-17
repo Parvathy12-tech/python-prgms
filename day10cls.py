@@ -27,7 +27,7 @@ class Vendor(User):
         return "Vendor"
 
 
-# Example usage
+
 users = [
     Customer("Alice", 2020),
     Vendor("Bob", 2018),
